@@ -25,7 +25,7 @@ This project contains a sample that login to Amazon, Search for a TV, Add a TV t
 - Firefox / Chrome browser
 - Relevant driver according to browser
 
-### Steps to run
+### Steps to run in Chrome Browser
 
 1. Clone below git repository
 
@@ -35,11 +35,15 @@ This project contains a sample that login to Amazon, Search for a TV, Add a TV t
 
 > cd $project_home
 
-3. Open a terminal and issue the command to clean the repository
+3. Open TestData.properties file and give the username, password and given name
+
+4. Provide the driver path in the Configuration.properties file
+
+5. Open a terminal and issue the command to clean the repository
 
 > mvn clean
 
-4. Run the repository
+6. Run the repository
 
 > mvn test
 
