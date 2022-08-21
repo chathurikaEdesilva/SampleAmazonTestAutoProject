@@ -3,6 +3,11 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
 
+/**
+ * This class is the page object class for the select payment page (appears when proceed to payment button is clicked)
+ * Following method is there
+ * getSelectPaymentText() - This will read the select payment text from the page
+ */
 public class SelectPaymentPage {
     WebDriver webDriver;
 

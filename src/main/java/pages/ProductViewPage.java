@@ -2,13 +2,13 @@ package pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
-import java.time.Duration;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
-
+/**
+ * This class is the page object class for the product view page (this loads when a search item is clicked)
+ * Following methods are there
+ * checkAddToCartButtonExistance() - Check whether the add to cart button is visible
+ * addToCart() - clicks the button and adds to cart
+ */
 public class ProductViewPage {
 
     WebDriver webDriver;
@@ -18,8 +18,6 @@ public class ProductViewPage {
     }
 
     By addToCartBtn = By.id("add-to-cart-button");
-    //By popUp = By.xpath("//h4[@id='a-popover-header-3']");
-    //By popUpClose = By.xpath("//button[@data-action='a-popover-close']");
 
     public boolean checkAddToCartButtonExistance() {
         boolean status = webDriver.findElement(addToCartBtn).isDisplayed();

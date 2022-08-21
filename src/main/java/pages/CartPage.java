@@ -3,6 +3,11 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
 
+/**
+ * This class is the page object class for the Cart
+ * Following methods are available in this class
+ * deleteCartItem() - delete an existing item
+ */
 public class CartPage {
     WebDriver webDriver;
 

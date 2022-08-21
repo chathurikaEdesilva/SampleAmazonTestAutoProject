@@ -5,8 +5,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
-import java.time.Duration;
-
+/**
+ * This class is the page object lass for the Amazon Home page.
+ * This contains the following methods
+ * loadSignInPage() - loading of the sign-in page
+ * getLoggedInUser() - reading of the logged-in user's name from the header
+ * searchItem(String item) - search for a given item
+ * checkFirstItemPresence() - checking the presence of the first search result
+ * clickOnFirstElementInList() - click on the first available search result
+ */
 public class AmazonHomePage {
 
     WebDriver webDriver;

@@ -4,11 +4,12 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.test.BaseClass;
-
 import java.io.File;
-import java.sql.Timestamp;
-import java.util.Date;
 
+
+/**
+ * This class contains the logic for screen capturing.
+ */
 public class CaptureScreenShots extends BaseClass {
 
     public void captureScreenShot(String fileName) {

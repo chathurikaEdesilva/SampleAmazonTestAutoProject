@@ -9,6 +9,10 @@ import pages.*;
 import setup.Driver;
 import java.time.Duration;
 
+/**
+ * This class is the base test.
+ * This can be used by the test classes as startup and teardown methods are included in this class
+ */
 public class BaseClass {
     public static WebDriver webDriver;
     ConfigFileReader configFileReader;

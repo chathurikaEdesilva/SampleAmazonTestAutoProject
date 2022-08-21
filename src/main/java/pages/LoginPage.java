@@ -3,6 +3,11 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
 
+/**
+ * This class is the page object class for the Login page.
+ * Following method is there
+ * loginIn(String username, String password) - fills the username and password in the login flow and submits for sign in
+ */
 public class LoginPage {
     WebDriver webDriver;
 
