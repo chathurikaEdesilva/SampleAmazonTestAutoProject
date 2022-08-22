@@ -1,3 +1,8 @@
+/**
+ * This java class reads test data from TestData.properties file.
+ * This class contains methods that can be used to access the test data
+ */
+
 package dataProvider;
 
 import java.io.BufferedReader;
@@ -6,10 +11,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
-/**
- * This java class reads test data from TestData.properties file. This class contains methods
- * that can be used to access the test data
- */
 public class TestDataFileReader {
     Properties properties;
     String propertyFilePath = "src/main/resources/TestData.properties";

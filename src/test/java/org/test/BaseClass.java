@@ -1,3 +1,10 @@
+/**
+ * This class is the base test.
+ * This can be used by the test classes as startup and teardown methods are included in this class
+ * The startup initializes the driver and loads the web page
+ * The tear down method deletes the added item from cart in the end of tests as well as ends the browser session
+ */
+
 package org.test;
 
 import dataProvider.ConfigFileReader;
@@ -9,10 +16,6 @@ import pages.*;
 import setup.Driver;
 import java.time.Duration;
 
-/**
- * This class is the base test.
- * This can be used by the test classes as startup and teardown methods are included in this class
- */
 public class BaseClass {
     public static WebDriver webDriver;
     ConfigFileReader configFileReader;

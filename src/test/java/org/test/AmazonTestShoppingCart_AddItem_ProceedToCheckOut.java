@@ -1,3 +1,12 @@
+/**
+ * This is the test class that tests log-in to Amazon, search for a tv, add the first search item to cart and proceed to checkout
+ * Contains the following test methods
+ * testLogin() - tests the logging in
+ * testSearchForItem() - tests searching for a tv
+ * testClickingOnFirstItem() - tests selecting the first item on the search result
+ * testAddItemToCart() - tests adding selected item to cart
+ * testProceedToCheckout() - tests proceeding to checkout
+ */
 package org.test;
 
 import org.testng.Assert;

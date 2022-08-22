@@ -1,10 +1,3 @@
-package pages;
-
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-
 /**
  * This class is the page object lass for the Amazon Home page.
  * This contains the following methods
@@ -14,6 +7,14 @@ import org.openqa.selenium.interactions.Actions;
  * checkFirstItemPresence() - checking the presence of the first search result
  * clickOnFirstElementInList() - click on the first available search result
  */
+
+package pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+
 public class AmazonHomePage {
 
     WebDriver webDriver;

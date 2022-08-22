@@ -1,3 +1,8 @@
+/**
+ * This class is used to read the configurations from the Configuration.properties file.
+ * This exposes methods to access the configuration values
+ */
+
 package dataProvider;
 
 import java.io.BufferedReader;
@@ -6,10 +11,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
-/**
- * This class is used to read the configurations from the Configuration.properties file. This exposes methods
- * to access the configuration values
- */
 public class ConfigFileReader {
     Properties properties;
     String propertyFilePath = "src/main/configs/Configuration.properties";

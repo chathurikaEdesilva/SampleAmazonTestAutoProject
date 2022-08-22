@@ -1,14 +1,15 @@
-package pages;
-
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.By;
-
 /**
  * This is the page object class for the page that appears after the item is added to cart.
  * This has the following methods
  * getAddedToCartText() - reads the "Added to Cart" text
  * proceedToCheckout() - proceeds to the checkout
  */
+
+package pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.By;
+
 public class AddedToCartPage {
     WebDriver webDriver;
 
